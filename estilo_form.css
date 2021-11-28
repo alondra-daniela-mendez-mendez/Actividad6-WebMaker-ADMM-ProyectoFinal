@@ -1,0 +1,193 @@
+@font-face {
+	font-family: 'Exotc350';
+	src: url(font/EXO350DB.ttf);
+}
+@font-face {
+	font-family: 'CupcakeSmile';
+    src: url(font/Cupcake\ Smiles.otf);
+}
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'CupcakeSmile';
+}
+
+header {
+	width: 100%;
+	height: 90px;
+	padding:10px 0;
+	overflow: hidden;
+	background-color: #002060;
+	padding: 10px;
+}
+a.index{
+	background-color: #9DC3E6;
+	color: #002060;
+	padding: 10px 20px;
+	font-size: 25px;
+	border-radius: 10px;
+	text-decoration: none;
+	font-family: "Exotc350";
+	float:right;
+	margin: 8px;
+}
+
+.index:hover{
+	background-color: #2F5597;
+    color: white;
+	transition:0.5s;
+	cursor: pointer;
+}
+
+.logo {
+	float: left;
+    margin-left: 10px;
+}
+
+.logo img {
+	height: 80px;
+    margin-left: 10px;
+}
+
+.titulo{
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+}
+h1 {
+	padding: 12px;
+	color: #444;
+	font-size: 40px;
+}
+.titulo2{
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: right;
+	font-size: 50px;
+	color: white;
+}
+
+form{
+	
+	background-color: #d2e7fb;
+	border-radius: 10px;
+	font-family: 'CupcakeSmile';
+	padding: 30px;
+	width: 400px;
+	padding-top: 30px;
+	margin-bottom: 30px;
+}
+.update{
+	width: 50%;
+	margin: auto;
+}
+input{
+	font-size: 20px;
+	background-color: lightgray;
+	width: 100%;
+	padding: 5px;
+	font-family: 'CupcakeSmile';
+	margin: 10px;
+}
+select{
+	font-size: 20px;
+	background-color: lightgray;
+	width: 100%;
+	padding: 10px 5px;
+	font-family: 'CupcakeSmile';
+	margin: 10px;
+}
+select:hover{
+	background-color: #f1f1f1;
+}
+option{
+	background-color: rgb(236, 233, 233);
+}
+option:focus{
+	background-color: yellow;
+}
+input:hover{
+	background-color: #f1f1f1;
+}
+input[type='submit']{
+	padding: 5px;
+	border-radius: 10px;
+	font-size: 35px;
+	width: 100%;
+	background-color: #002060;
+	color: white;
+	font-family: 'CupcakeSmile';
+	cursor: pointer;
+}
+input[type='submit']:hover{
+	background-color: #2F5597;
+	cursor: pointer;
+}
+label{
+	font-size: 25px;
+}
+.rb{
+	text-align: left;
+    width: 20px;
+}
+.btn{
+	cursor: pointer;
+	font-size: 25px;
+	color: white;
+	font-family: 'CupcakeSmile';
+}
+th{
+	font-weight: bold;
+	font-size: 25px;
+	vertical-align: middle;
+	
+}
+.table-success{
+	--bs-table-bg: #002060;
+	color: white;
+	border-bottom: solid 5px gray;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+td{
+	font-size: 20px;
+	vertical-align: middle;
+	border-color: #002060;
+}
+table{
+	border-radius: 10px;
+    overflow: hidden;
+	background-color: #d2e7fb;
+}
+
+
+footer {
+    background-color: #002060;
+    text-align: center;
+    padding: 10px;
+	margin-top: 20px;
+}
+
+footer p,a {
+	text-align:center;
+	margin: 0;
+    color: white;
+    font-size: 20px;
+	font-family: 'Exotc350';
+}
+footer a{
+	font-size: 15px;
+}
+footer a:hover{
+	color: white;
+}
+h3
+{
+	color: white;
+	font-weight: bold;
+	font-family: 'Exotc350';
+	font-size: 32px;
+	margin: 0;
+}

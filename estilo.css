@@ -1,0 +1,222 @@
+/* 27. Méndez Méndez Alondra Daniela 5J 
+    TEMA: WebMaster - DISEÑO: 7
+*/
+@font-face {
+	font-family: 'Exotc350';
+	src: url(font/EXO350DB.ttf);
+}
+@font-face {
+	font-family: 'CupcakeSmile';
+    src: url(font/Cupcake\ Smiles.otf);
+}
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	background: white;
+	color:#333;
+	font-family: 'Exotc350';
+}
+
+.wrapp {
+	max-width: 1000px;
+	width:80%;
+	margin:auto;
+	overflow: hidden;
+}
+
+/* HEADER*/
+header {
+	width: 100%;
+	height: 90px;
+	padding:10px 0;
+	overflow: hidden;
+	background-color: #002060;
+}
+
+.logo {
+	float: left;
+    margin-left: 10px;
+}
+
+.logo img {
+	height: 80px;
+    margin-left: 10px;
+}
+
+/*BARRA DE NAVEGACION*/
+nav {
+	margin-top: 10px;
+	float: right;
+}
+
+nav ul li {
+	display: inline-block;
+	margin:0px 5px;
+}
+
+nav ul li a {
+	display: block;
+	background-color: #9DC3E6;
+    color: #002060;
+    text-decoration: none;
+	padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 10px;
+	cursor: pointer;
+}
+nav ul li a:hover {
+	background-color: #2F5597;
+    color: white;
+	
+}
+a:hover{
+	transition:0.5s;
+}
+
+
+/*ENCABEZADO INFO*/
+.mensaje {
+	background:#2F5597;
+	padding:20px;
+	color:#fff;
+	margin:20px 0;
+	border-radius:5px;
+	font-size: 25px;
+}
+
+/*ARTICULO*/
+.articulo {
+	float: left;
+	width: 70%;
+	padding:0px 20px 20px 0px;
+	font-family: 'CupcakeSmile';
+	font-size: 30px;
+}
+.articulo img{
+	width: 90%;
+	border-radius: 10px;
+	margin: 10px;
+}
+ul{
+	list-style: square inside;
+}
+
+
+/*ASIDE/LATERAL*/
+aside {
+	float: left;
+	background-color: #9DC3E6;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'CupcakeSmile';
+    font-size: 30px;
+	width: 30%;
+}
+.widget ul {
+	margin-left:20px;
+	list-style: none;
+}
+.widget ul li {
+	margin:10px 0;
+	width: 100%;
+}
+.widget ul li a {
+	color: #203864;
+	text-decoration: none;
+}
+h3{
+	color: #203864;
+	font-weight: bold;
+	font-family: 'Exotc350';
+	font-size: 30px;
+}
+#icon{
+	float: left;
+	margin: 10px 10px 5px 0px;
+}
+.widget ul li a:hover {
+	background-color: white;
+	padding: 5px;
+	border-radius: 2px;
+}
+.db{
+	width: 100%;
+}
+
+/*PIE DE PAGINA*/
+footer {
+	
+    background-color: #002060;
+    text-align: center;
+    padding: 10px;
+	margin-top: 20px;
+}
+
+footer p {
+	text-align:center;
+	margin: 0;
+    color: white;
+    font-size: 20px;
+}
+h1{
+    margin: 0;
+    color: white;
+	font-family: 'Exotc350';
+}
+a{
+	color: white;
+}
+
+
+form{
+	
+	background-color: #d2e7fb;
+	border-radius: 10px;
+	font-family: 'CupcakeSmile';
+	padding: 30px;
+}
+label{
+	font-size: 30px;
+	font-weight: bold;
+}
+input{
+	font-size: 30px;
+	background-color: lightgray;
+	width: 50%;
+	padding: 5px;
+	font-family: 'CupcakeSmile';
+}
+.boton{
+	padding: 5px;
+	border-radius: 10px;
+	font-size: 35px;
+	width: 60%;
+	background-color: #002060;
+	color: white;
+	font-family: 'CupcakeSmile';
+	cursor: pointer;
+}
+.boton:hover{
+	background-color: #2F5597;
+}
+.rb{
+	text-align: left;
+	width: 20px;
+}
+.boton{
+	width: 100%;
+}
+.txta{
+	font-size: 30px;
+	background-color: lightgray;
+	padding: 5px;
+	font-family: 'CupcakeSmile';
+	resize: none;
+}
+
