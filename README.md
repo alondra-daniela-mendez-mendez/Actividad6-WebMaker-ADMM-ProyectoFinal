@@ -18,3 +18,4 @@ Para el Proyecto Final se crea una página con conexión a base de datos, que in
   - Archivo para borrar registro
   - Formulario para editar
   - Archivo para editar registro
+- Archivo exportado de la base de datos
